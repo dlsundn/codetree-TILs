@@ -15,7 +15,7 @@ public class Main {
         for(int i = 3; i < 10; i += 3){
             sum2 += arr[i];
         }
-        double avg = sum2/3;
+        double avg = (double)sum2/3;
         System.out.print(sum + " " + avg);
         
     }
