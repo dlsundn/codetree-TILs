@@ -10,9 +10,10 @@ public class Main {
             if( i % 2 != 0){
                 sum += arr[i];
             }
-            if(i % 3 == 0 && i != 0){
-                sum2 += arr[i-1];
-            }
+        
+        }
+        for(int i = 3; i < 10; i += 3){
+            sum2 += arr[i];
         }
         double avg = sum2/3;
         System.out.print(sum + " " + avg);
