@@ -12,10 +12,11 @@ public class Main {
             }
         
         }
-        for(int i = 3; i < 10; i += 3){
+        for(int i = 2; i < 10; i += 3){
             sum2 += arr[i];
         }
         double avg = (double)sum2/3;
+
         System.out.printf("%d %.1f", sum, avg);
     
         
